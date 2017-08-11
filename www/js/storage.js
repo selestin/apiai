@@ -61,11 +61,6 @@ function StorageImpl() {
             title: '中文（廣東話)',
             clientAccessToken: '00ef32d3e35f43178405c046a16f3843',
             lang: 'zh-HK'
-        },
-        {
-            title: '中文（繁體)',
-            clientAccessToken: 'dd7ebc8a02974155aeffec26b21b55cf',
-            lang: 'zh-TW'
         }
     ];
     this.languages = languages;

@@ -20,10 +20,8 @@
 <html lang="en" ng-app="app">
     <head>
         <meta charset="utf-8" />
-
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="mobile-web-app-capable" content="yes">
-
         <title>api.ai</title>
 
         <link rel="stylesheet" href="lib/onsen/css/onsenui.css">
@@ -227,6 +225,7 @@
                     {}, // empty for simple requests, some optional parameters can be here 
                     function (response) {
                         // place your result processing here 
+
                         sayText(response.result.fulfillment.speech);
                         //alert(JSON.stringify(response));
                     },
